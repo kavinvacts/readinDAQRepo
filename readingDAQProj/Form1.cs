@@ -48,7 +48,7 @@ namespace readingDAQProj
         {
             // TODO: Handle DAQ errors.
             string message = e.Exception.Message;
-            MessageBox.Show(message, "A DAQ Error has happened", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show(message, "A DAQ Error has happened now", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             daqTask1Component1.StopTask();
         }
     }
